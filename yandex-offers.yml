@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE yml_catalog SYSTEM "shops.dtd">
+<yml_catalog date="2025-10-14 21:00">
+  <shop>
+    <name>Нереальная Реальность</name>
+    <company>ИП / ООО Нереальная Реальность</company>
+    <url>https://nerealnaya-realnost.ru</url>
+    <platform>Tilda</platform>
+    <currencies>
+      <currency id="RUR" rate="1"/>
+    </currencies>
+    <categories>
+      <category id="1">Организация детских праздников</category>
+      <category id="2">Корпоративные мероприятия</category>
+      <category id="3">Квесты и VR-игры</category>
+      <category id="4">Аренда развлечений</category>
+    </categories>
+    <offers>
+      <offer id="dr_na_legke" type="service" available="true">
+        <url>https://nerealnaya-realnost.ru/tarif-prazdnik</url>
+        <name>Детский ДР — пакет «На лёгке» (1,5 ч, будни)</name>
+        <price>7700</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>1</categoryId>
+        <description>Пакет для детского дня рождения: 1 час VR-игр + 30 мин зона отдыха с чаепитием. До 8 детей. Будние дни.</description>
+        <local_delivery_cost>0</local_delivery_cost>
+      </offer>
+
+      <offer id="dr_start" type="service" available="true">
+        <url>https://nerealnaya-realnost.ru/tarif-prazdnik</url>
+        <name>Детский ДР — пакет «Старт» (2 ч, будни)</name>
+        <price>8600</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>1</categoryId>
+        <description>2 сеанса VR по 45 минут + зона отдыха с оформлением и чаепитием. До 8 гостей. Будние дни.</description>
+        <local_delivery_cost>0</local_delivery_cost>
+      </offer>
+
+      <offer id="dr_expert" type="service" available="true">
+        <url>https://nerealnaya-realnost.ru/tarif-prazdnik</url>
+        <name>Детский ДР — пакет «Эксперт» (2,5 ч, будни)</name>
+        <price>10900</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>1</categoryId>
+        <description>2 сеанса VR по 60 минут + зона отдыха с праздничным оформлением, музыкой и трансляцией игр. До 8 гостей.</description>
+        <local_delivery_cost>0</local_delivery_cost>
+      </offer>
+
+      <offer id="dr_boss" type="service" available="true">
+        <url>https://nerealnaya-realnost.ru/tarif-prazdnik</url>
+        <name>Детский ДР — пакет «Босс» (3 ч, будни)</name>
+        <price>13900</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>1</categoryId>
+        <description>3 сеанса VR по 45 минут + полное сопровождение, зона отдыха, оформление, трансляция. Идеально для яркого праздника!</description>
+        <local_delivery_cost>0</local_delivery_cost>
+      </offer>
+
+      <offer id="adult_dr" type="service" available="true">
+        <url>https://nerealnaya-realnost.ru/vzroslyj-den-rozhdeniya</url>
+        <name>Взрослый день рождения в VR</name>
+        <price>8600</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>4</categoryId>
+        <description>Праздник для взрослых с командными VR-играми, зоной отдыха и чаепитием. Подходит для друзей и коллег.</description>
+        <local_delivery_cost>0</local_delivery_cost>
+      </offer>
+
+      <offer id="vypusknoj" type="service" available="true">
+        <url>https://nerealnaya-realnost.ru/vypusknoj</url>
+        <name>Выпускной в VR-арене</name>
+        <price>10900</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>1</categoryId>
+        <description>Запоминающийся выпускной с VR-играми, квестами и зоной отдыха. Для школьников и студентов.</description>
+        <local_delivery_cost>0</local_delivery_cost>
+      </offer>
+
+      <offer id="korporativ" type="service" available="true">
+        <url>https://nerealnaya-realnost.ru/korporativ</url>
+        <name>Корпоратив в VR-арене</name>
+        <price>10900</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>2</categoryId>
+        <description>Командообразующий корпоратив с тактическими играми, баттлами и квестами. До 16 игроков.</description>
+        <local_delivery_cost>0</local_delivery_cost>
+      </offer>
+
+      <offer id="arena_budni" type="service" available="true">
+        <url>https://nerealnaya-realnost.ru/arena1</url>
+        <name>Аренда VR-арены — будни (до 8 игроков)</name>
+        <price>6400</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>4</categoryId>
+        <description>Аренда просторной VR-арены на 1 час в будние дни. До 8 игроков. Возможность добавить участников по 800 ₽.</description>
+        <local_delivery_cost>0</local_delivery_cost>
+      </offer>
+
+      <offer id="kvest_horror" type="service" available="true">
+        <url>https://nerealnaya-realnost.ru/kvest-horror</url>
+        <name>Квест-хоррор «Побег из комнаты» — будни</name>
+        <price>800</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>3</categoryId>
+        <description>Квест в формате эскейп-рума: четыре этажа, сломанный лифт, лабиринты и страх за каждой дверью. Для 1–16 игроков. Цена за одного участника. Будние дни.</description>
+        <local_delivery_cost>0</local_delivery_cost>
+      </offer>
+
+      <offer id="tactics" type="service" available="true">
+        <url>https://nerealnaya-realnost.ru/tactics-games</url>
+        <name>Тактические VR-игры — будни</name>
+        <price>800</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>3</categoryId>
+        <description>Спецоперации в ночном режиме, 4 режима игры, захватывающая графика. Для 1–16 игроков. Цена указана за одного участника.</description>
+        <local_delivery_cost>0</local_delivery_cost>
+      </offer>
+    </offers>
+  </shop>
+</yml_catalog>
