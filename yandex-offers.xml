@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE yml_catalog SYSTEM "shops.dtd">
-<yml_catalog date="2025-10-15 10:00">
+<yml_catalog date="2025-10-16 10:00">
   <shop>
     <name>Нереальная Реальность</name>
     <company>ИП / ООО Нереальная Реальность</company>
@@ -18,7 +18,7 @@
     <offers>
       <offer id="dr_na_legke_budni" type="general" available="true">
         <url>https://nerealnaya-realnost.ru/tarif-prazdnik</url>
-        <name>Детский ДР — пакет «На лёгке» (1,5 ч, будни)</name>
+        <name>Нереальная Реальность: Детский ДР — пакет «На лёгке» (1,5 ч, будни)</name>
         <price>7700</price>
         <currencyId>RUR</currencyId>
         <categoryId>1</categoryId>
@@ -32,7 +32,7 @@
 
       <offer id="dr_start_budni" type="general" available="true">
         <url>https://nerealnaya-realnost.ru/tarif-prazdnik</url>
-        <name>Детский ДР — пакет «Старт» (2 ч, будни)</name>
+        <name>Нереальная Реальность: Детский ДР — пакет «Старт» (2 ч, будни)</name>
         <price>8600</price>
         <currencyId>RUR</currencyId>
         <categoryId>1</categoryId>
@@ -46,7 +46,7 @@
 
       <offer id="dr_expert_budni" type="general" available="true">
         <url>https://nerealnaya-realnost.ru/tarif-prazdnik</url>
-        <name>Детский ДР — пакет «Эксперт» (2,5 ч, будни)</name>
+        <name>Нереальная Реальность: Детский ДР — пакет «Эксперт» (2,5 ч, будни)</name>
         <price>10900</price>
         <currencyId>RUR</currencyId>
         <categoryId>1</categoryId>
@@ -60,7 +60,7 @@
 
       <offer id="dr_boss_budni" type="general" available="true">
         <url>https://nerealnaya-realnost.ru/tarif-prazdnik</url>
-        <name>Детский ДР — пакет «Босс» (3 ч, будни)</name>
+        <name>Нереальная Реальность: Детский ДР — пакет «Босс» (3 ч, будни)</name>
         <price>13900</price>
         <currencyId>RUR</currencyId>
         <categoryId>1</categoryId>
@@ -74,7 +74,7 @@
 
       <offer id="adult_dr" type="general" available="true">
         <url>https://nerealnaya-realnost.ru/vzroslyj-den-rozhdeniya</url>
-        <name>Взрослый день рождения в VR</name>
+        <name>Нереальная Реальность: Взрослый день рождения в VR</name>
         <price>8600</price>
         <currencyId>RUR</currencyId>
         <categoryId>4</categoryId>
@@ -88,7 +88,7 @@
 
       <offer id="vypusknoj" type="general" available="true">
         <url>https://nerealnaya-realnost.ru/vypusknoj</url>
-        <name>Выпускной в VR-арене</name>
+        <name>Нереальная Реальность: Выпускной в VR-арене</name>
         <price>10900</price>
         <currencyId>RUR</currencyId>
         <categoryId>1</categoryId>
@@ -102,7 +102,7 @@
 
       <offer id="korporativ" type="general" available="true">
         <url>https://nerealnaya-realnost.ru/korporativ</url>
-        <name>Корпоратив в VR-арене</name>
+        <name>Нереальная Реальность: Корпоратив в VR-арене</name>
         <price>10900</price>
         <currencyId>RUR</currencyId>
         <categoryId>2</categoryId>
@@ -116,7 +116,7 @@
 
       <offer id="arena_budni" type="general" available="true">
         <url>https://nerealnaya-realnost.ru/arena1</url>
-        <name>Аренда VR-арены — будни (до 8 игроков)</name>
+        <name>Нереальная Реальность: Аренда VR-арены — будни (до 8 игроков)</name>
         <price>6400</price>
         <currencyId>RUR</currencyId>
         <categoryId>4</categoryId>
@@ -130,7 +130,7 @@
 
       <offer id="kvest_horror" type="general" available="true">
         <url>https://nerealnaya-realnost.ru/kvest-horror</url>
-        <name>Квест-хоррор «Побег из комнаты» — будни</name>
+        <name>Нереальная Реальность: Квест-хоррор «Побег из комнаты» — будни</name>
         <price>800</price>
         <currencyId>RUR</currencyId>
         <categoryId>3</categoryId>
@@ -144,7 +144,7 @@
 
       <offer id="tactics" type="general" available="true">
         <url>https://nerealnaya-realnost.ru/tactics-games</url>
-        <name>Тактические VR-игры — будни</name>
+        <name>Нереальная Реальность: Тактические VR-игры — будни</name>
         <price>800</price>
         <currencyId>RUR</currencyId>
         <categoryId>3</categoryId>
@@ -158,4 +158,3 @@
     </offers>
   </shop>
 </yml_catalog>
-
