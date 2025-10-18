@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE yml_catalog SYSTEM "shops.dtd">
-<yml_catalog date="2025-10-16 10:00">
+<yml_catalog date="2025-10-16 14:00">
   <shop>
     <name>Нереальная Реальность</name>
     <company>ИП / ООО Нереальная Реальность</company>
@@ -10,19 +10,20 @@
       <currency id="RUR" rate="1"/>
     </currencies>
     <categories>
-      <category id="1">Организация детских праздников</category>
-      <category id="2">Корпоративные мероприятия</category>
+      <category id="25">Организация мероприятий</category>
       <category id="3">Квесты и VR-игры</category>
-      <category id="4">Аренда развлечений</category>
+      <category id="20">Аренда</category>
     </categories>
     <offers>
+      <!-- Детские пакеты -->
       <offer id="dr_na_legke_budni" type="general" available="true">
         <url>https://nerealnaya-realnost.ru/tarif-prazdnik</url>
-        <name>Нереальная Реальность: Детский ДР — пакет «На лёгке» (1,5 ч, будни)</name>
+        <name>Нереальная Реальность</name>
+        <description>Детский ДР — пакет «На лёгке» (1,5 ч, будни)</description>
         <price>7700</price>
         <currencyId>RUR</currencyId>
-        <categoryId>1</categoryId>
-        <description>Пакет для детского дня рождения: 1 час VR-игр + 30 мин зона отдыха с чаепитием. До 8 детей. Будние дни.</description>
+        <categoryId>25</categoryId>
+        <set-ids>https://nerealnaya-realnost.ru/tarif-prazdnik</set-ids>
         <param name="регион">Красноярск</param>
         <param name="годы опыта">3</param>
         <param name="число отзывов">34</param>
@@ -32,11 +33,12 @@
 
       <offer id="dr_start_budni" type="general" available="true">
         <url>https://nerealnaya-realnost.ru/tarif-prazdnik</url>
-        <name>Нереальная Реальность: Детский ДР — пакет «Старт» (2 ч, будни)</name>
+        <name>Нереальная Реальность</name>
+        <description>Детский ДР — пакет «Старт» (2 ч, будни)</description>
         <price>8600</price>
         <currencyId>RUR</currencyId>
-        <categoryId>1</categoryId>
-        <description>2 сеанса VR по 45 минут + зона отдыха с оформлением и чаепитием. До 8 гостей. Будние дни.</description>
+        <categoryId>25</categoryId>
+        <set-ids>https://nerealnaya-realnost.ru/tarif-prazdnik</set-ids>
         <param name="регион">Красноярск</param>
         <param name="годы опыта">3</param>
         <param name="число отзывов">34</param>
@@ -46,11 +48,12 @@
 
       <offer id="dr_expert_budni" type="general" available="true">
         <url>https://nerealnaya-realnost.ru/tarif-prazdnik</url>
-        <name>Нереальная Реальность: Детский ДР — пакет «Эксперт» (2,5 ч, будни)</name>
+        <name>Нереальная Реальность</name>
+        <description>Детский ДР — пакет «Эксперт» (2,5 ч, будни)</description>
         <price>10900</price>
         <currencyId>RUR</currencyId>
-        <categoryId>1</categoryId>
-        <description>2 сеанса VR по 60 минут + зона отдыха с праздничным оформлением, музыкой и трансляцией игр. До 8 гостей.</description>
+        <categoryId>25</categoryId>
+        <set-ids>https://nerealnaya-realnost.ru/tarif-prazdnik</set-ids>
         <param name="регион">Красноярск</param>
         <param name="годы опыта">3</param>
         <param name="число отзывов">34</param>
@@ -60,11 +63,12 @@
 
       <offer id="dr_boss_budni" type="general" available="true">
         <url>https://nerealnaya-realnost.ru/tarif-prazdnik</url>
-        <name>Нереальная Реальность: Детский ДР — пакет «Босс» (3 ч, будни)</name>
+        <name>Нереальная Реальность</name>
+        <description>Детский ДР — пакет «Босс» (3 ч, будни)</description>
         <price>13900</price>
         <currencyId>RUR</currencyId>
-        <categoryId>1</categoryId>
-        <description>3 сеанса VR по 45 минут + полное сопровождение, зона отдыха, оформление, трансляция. Идеально для яркого праздника!</description>
+        <categoryId>25</categoryId>
+        <set-ids>https://nerealnaya-realnost.ru/tarif-prazdnik</set-ids>
         <param name="регион">Красноярск</param>
         <param name="годы опыта">3</param>
         <param name="число отзывов">34</param>
@@ -72,13 +76,15 @@
         <param name="конверсия">40</param>
       </offer>
 
+      <!-- Взрослый ДР -->
       <offer id="adult_dr" type="general" available="true">
         <url>https://nerealnaya-realnost.ru/vzroslyj-den-rozhdeniya</url>
-        <name>Нереальная Реальность: Взрослый день рождения в VR</name>
+        <name>Нереальная Реальность</name>
+        <description>Взрослый день рождения в VR</description>
         <price>8600</price>
         <currencyId>RUR</currencyId>
-        <categoryId>4</categoryId>
-        <description>Праздник для взрослых с командными VR-играми, зоной отдыха и чаепитием. Подходит для друзей и коллег.</description>
+        <categoryId>25</categoryId>
+        <set-ids>https://nerealnaya-realnost.ru/vzroslyj-den-rozhdeniya</set-ids>
         <param name="регион">Красноярск</param>
         <param name="годы опыта">3</param>
         <param name="число отзывов">34</param>
@@ -86,13 +92,15 @@
         <param name="конверсия">40</param>
       </offer>
 
+      <!-- Выпускной -->
       <offer id="vypusknoj" type="general" available="true">
         <url>https://nerealnaya-realnost.ru/vypusknoj</url>
-        <name>Нереальная Реальность: Выпускной в VR-арене</name>
+        <name>Нереальная Реальность</name>
+        <description>Выпускной в VR-арене</description>
         <price>10900</price>
         <currencyId>RUR</currencyId>
-        <categoryId>1</categoryId>
-        <description>Запоминающийся выпускной с VR-играми, квестами и зоной отдыха. Для школьников и студентов.</description>
+        <categoryId>25</categoryId>
+        <set-ids>https://nerealnaya-realnost.ru/vypusknoj</set-ids>
         <param name="регион">Красноярск</param>
         <param name="годы опыта">3</param>
         <param name="число отзывов">34</param>
@@ -100,13 +108,15 @@
         <param name="конверсия">40</param>
       </offer>
 
+      <!-- Корпоратив -->
       <offer id="korporativ" type="general" available="true">
         <url>https://nerealnaya-realnost.ru/korporativ</url>
-        <name>Нереальная Реальность: Корпоратив в VR-арене</name>
+        <name>Нереальная Реальность</name>
+        <description>Корпоратив в VR-арене</description>
         <price>10900</price>
         <currencyId>RUR</currencyId>
-        <categoryId>2</categoryId>
-        <description>Командообразующий корпоратив с тактическими играми, баттлами и квестами. До 16 игроков.</description>
+        <categoryId>25</categoryId>
+        <set-ids>https://nerealnaya-realnost.ru/korporativ</set-ids>
         <param name="регион">Красноярск</param>
         <param name="годы опыта">3</param>
         <param name="число отзывов">34</param>
@@ -114,13 +124,15 @@
         <param name="конверсия">40</param>
       </offer>
 
+      <!-- Аренда арены -->
       <offer id="arena_budni" type="general" available="true">
         <url>https://nerealnaya-realnost.ru/arena1</url>
-        <name>Нереальная Реальность: Аренда VR-арены — будни (до 8 игроков)</name>
+        <name>Нереальная Реальность</name>
+        <description>Аренда VR-арены — будни (до 8 игроков)</description>
         <price>6400</price>
         <currencyId>RUR</currencyId>
-        <categoryId>4</categoryId>
-        <description>Аренда просторной VR-арены на 1 час в будние дни. До 8 игроков. Возможность добавить участников по 800 ₽.</description>
+        <categoryId>20</categoryId>
+        <set-ids>https://nerealnaya-realnost.ru/arena1</set-ids>
         <param name="регион">Красноярск</param>
         <param name="годы опыта">3</param>
         <param name="число отзывов">34</param>
@@ -128,13 +140,15 @@
         <param name="конверсия">40</param>
       </offer>
 
+      <!-- Квест-хоррор -->
       <offer id="kvest_horror" type="general" available="true">
         <url>https://nerealnaya-realnost.ru/kvest-horror</url>
-        <name>Нереальная Реальность: Квест-хоррор «Побег из комнаты» — будни</name>
+        <name>Нереальная Реальность</name>
+        <description>Квест-хоррор «Побег из комнаты» — будни</description>
         <price>800</price>
         <currencyId>RUR</currencyId>
         <categoryId>3</categoryId>
-        <description>Квест в формате эскейп-рума: четыре этажа, сломанный лифт, лабиринты и страх за каждой дверью. Для 1–16 игроков. Цена за одного участника. Будние дни.</description>
+        <set-ids>https://nerealnaya-realnost.ru/kvest-horror</set-ids>
         <param name="регион">Красноярск</param>
         <param name="годы опыта">3</param>
         <param name="число отзывов">34</param>
@@ -142,13 +156,15 @@
         <param name="конверсия">40</param>
       </offer>
 
+      <!-- Тактические игры -->
       <offer id="tactics" type="general" available="true">
         <url>https://nerealnaya-realnost.ru/tactics-games</url>
-        <name>Нереальная Реальность: Тактические VR-игры — будни</name>
+        <name>Нереальная Реальность</name>
+        <description>Тактические VR-игры — будни</description>
         <price>800</price>
         <currencyId>RUR</currencyId>
         <categoryId>3</categoryId>
-        <description>Спецоперации в ночном режиме, 4 режима игры, захватывающая графика. Для 1–16 игроков. Цена указана за одного участника.</description>
+        <set-ids>https://nerealnaya-realnost.ru/tactics-games</set-ids>
         <param name="регион">Красноярск</param>
         <param name="годы опыта">3</param>
         <param name="число отзывов">34</param>
