@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE yml_catalog SYSTEM "shops.dtd">
-<yml_catalog date="2025-10-16 14:00">
+<yml_catalog date="2025-10-17 10:00">
   <shop>
     <name>Нереальная Реальность</name>
     <company>ИП / ООО Нереальная Реальность</company>
@@ -14,6 +14,40 @@
       <category id="3">Квесты и VR-игры</category>
       <category id="20">Аренда</category>
     </categories>
+
+    <!-- БЛОК SETS — ОБЯЗАТЕЛЕН и должен быть ДО offers -->
+    <sets>
+      <set>
+        <url>https://nerealnaya-realnost.ru/tarif-prazdnik</url>
+        <name>Детский день рождения в VR</name>
+      </set>
+      <set>
+        <url>https://nerealnaya-realnost.ru/vzroslyj-den-rozhdeniya</url>
+        <name>Взрослый день рождения в VR</name>
+      </set>
+      <set>
+        <url>https://nerealnaya-realnost.ru/vypusknoj</url>
+        <name>Выпускной в VR</name>
+      </set>
+      <set>
+        <url>https://nerealnaya-realnost.ru/korporativ</url>
+        <name>Корпоратив в VR-арене</name>
+      </set>
+      <set>
+        <url>https://nerealnaya-realnost.ru/arena1</url>
+        <name>Аренда VR-арены</name>
+      </set>
+      <set>
+        <url>https://nerealnaya-realnost.ru/kvest-horror</url>
+        <name>Квест-хоррор «Побег из комнаты»</name>
+      </set>
+      <set>
+        <url>https://nerealnaya-realnost.ru/tactics-games</url>
+        <name>Тактические VR-игры</name>
+      </set>
+    </sets>
+
+    <!-- БЛОК OFFERS -->
     <offers>
       <!-- Детские пакеты -->
       <offer id="dr_na_legke_budni" type="general" available="true">
