@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE yml_catalog SYSTEM "shops.dtd">
-<yml_catalog date="2025-10-17 10:00">
+<yml_catalog date="2025-10-19 12:00">
   <shop>
     <name>Нереальная Реальность</name>
     <company>ИП / ООО Нереальная Реальность</company>
@@ -15,7 +15,7 @@
       <category id="20">Аренда</category>
     </categories>
 
-    <!-- БЛОК SETS — ОБЯЗАТЕЛЕН и должен быть ДО offers -->
+    <!-- ОБЯЗАТЕЛЬНЫЙ БЛОК SETS -->
     <sets>
       <set>
         <url>https://nerealnaya-realnost.ru/tarif-prazdnik</url>
