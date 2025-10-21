@@ -1,21 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE yml_catalog SYSTEM "shops.dtd">
-<yml_catalog date="2025-10-19 12:00">
+<yml_catalog date="2025-10-21 16:00">
   <shop>
     <name>Нереальная Реальность</name>
     <company>ИП / ООО Нереальная Реальность</company>
     <url>https://nerealnaya-realnost.ru</url>
     <platform>Tilda</platform>
+
     <currencies>
       <currency id="RUR" rate="1"/>
     </currencies>
+
     <categories>
       <category id="25">Организация мероприятий</category>
       <category id="3">Квесты и VR-игры</category>
       <category id="20">Аренда</category>
     </categories>
 
-    <!-- ОБЯЗАТЕЛЬНЫЙ БЛОК SETS -->
     <sets>
       <set>
         <url>https://nerealnaya-realnost.ru/tarif-prazdnik</url>
@@ -47,7 +48,6 @@
       </set>
     </sets>
 
-    <!-- БЛОК OFFERS -->
     <offers>
       <!-- Детские пакеты -->
       <offer id="dr_na_legke_budni" type="general" available="true">
@@ -57,6 +57,7 @@
         <price>7700</price>
         <currencyId>RUR</currencyId>
         <categoryId>25</categoryId>
+        <picture>https://static.tildacdn.com/tild3231-3837-4533-b764-376164663633/Screenshot_20250726_.jpg</picture>
         <set-ids>https://nerealnaya-realnost.ru/tarif-prazdnik</set-ids>
         <param name="регион">Красноярск</param>
         <param name="годы опыта">3</param>
@@ -72,6 +73,7 @@
         <price>8600</price>
         <currencyId>RUR</currencyId>
         <categoryId>25</categoryId>
+        <picture>https://static.tildacdn.com/tild3231-3837-4533-b764-376164663633/Screenshot_20250726_.jpg</picture>
         <set-ids>https://nerealnaya-realnost.ru/tarif-prazdnik</set-ids>
         <param name="регион">Красноярск</param>
         <param name="годы опыта">3</param>
@@ -87,6 +89,7 @@
         <price>10900</price>
         <currencyId>RUR</currencyId>
         <categoryId>25</categoryId>
+        <picture>https://static.tildacdn.com/tild3231-3837-4533-b764-376164663633/Screenshot_20250726_.jpg</picture>
         <set-ids>https://nerealnaya-realnost.ru/tarif-prazdnik</set-ids>
         <param name="регион">Красноярск</param>
         <param name="годы опыта">3</param>
@@ -102,6 +105,7 @@
         <price>13900</price>
         <currencyId>RUR</currencyId>
         <categoryId>25</categoryId>
+        <picture>https://static.tildacdn.com/tild3231-3837-4533-b764-376164663633/Screenshot_20250726_.jpg</picture>
         <set-ids>https://nerealnaya-realnost.ru/tarif-prazdnik</set-ids>
         <param name="регион">Красноярск</param>
         <param name="годы опыта">3</param>
@@ -118,6 +122,7 @@
         <price>8600</price>
         <currencyId>RUR</currencyId>
         <categoryId>25</categoryId>
+        <picture>https://static.tildacdn.com/tild3335-3566-4163-a663-316565366136/Screenshot_20250726_.jpg</picture>
         <set-ids>https://nerealnaya-realnost.ru/vzroslyj-den-rozhdeniya</set-ids>
         <param name="регион">Красноярск</param>
         <param name="годы опыта">3</param>
@@ -134,6 +139,7 @@
         <price>10900</price>
         <currencyId>RUR</currencyId>
         <categoryId>25</categoryId>
+        <picture>https://static.tildacdn.com/tild3539-6666-4164-a632-343031666565/Screenshot_20250726_.jpg</picture>
         <set-ids>https://nerealnaya-realnost.ru/vypusknoj</set-ids>
         <param name="регион">Красноярск</param>
         <param name="годы опыта">3</param>
@@ -150,6 +156,7 @@
         <price>10900</price>
         <currencyId>RUR</currencyId>
         <categoryId>25</categoryId>
+        <picture>https://static.tildacdn.com/tild6530-6535-4536-a134-356133326230/Screenshot_20250726_.jpg</picture>
         <set-ids>https://nerealnaya-realnost.ru/korporativ</set-ids>
         <param name="регион">Красноярск</param>
         <param name="годы опыта">3</param>
@@ -166,6 +173,7 @@
         <price>6400</price>
         <currencyId>RUR</currencyId>
         <categoryId>20</categoryId>
+        <picture>https://static.tildacdn.com/tild3539-6666-4164-a632-343031666565/Screenshot_20250726_.jpg</picture>
         <set-ids>https://nerealnaya-realnost.ru/arena1</set-ids>
         <param name="регион">Красноярск</param>
         <param name="годы опыта">3</param>
@@ -182,6 +190,7 @@
         <price>800</price>
         <currencyId>RUR</currencyId>
         <categoryId>3</categoryId>
+        <picture>https://static.tildacdn.com/tild3539-6666-4164-a632-343031666565/Screenshot_20250726_.jpg</picture>
         <set-ids>https://nerealnaya-realnost.ru/kvest-horror</set-ids>
         <param name="регион">Красноярск</param>
         <param name="годы опыта">3</param>
@@ -198,6 +207,7 @@
         <price>800</price>
         <currencyId>RUR</currencyId>
         <categoryId>3</categoryId>
+        <picture>https://static.tildacdn.com/tild3539-6666-4164-a632-343031666565/Screenshot_20250726_.jpg</picture>
         <set-ids>https://nerealnaya-realnost.ru/tactics-games</set-ids>
         <param name="регион">Красноярск</param>
         <param name="годы опыта">3</param>
