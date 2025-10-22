@@ -1,53 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE yml_catalog SYSTEM "shops.dtd">
-<yml_catalog date="2025-10-21 16:00">
+<yml_catalog date="2025-10-22 06:00">
   <shop>
     <name>Нереальная Реальность</name>
     <company>ИП / ООО Нереальная Реальность</company>
     <url>https://nerealnaya-realnost.ru</url>
     <platform>Tilda</platform>
-
     <currencies>
       <currency id="RUR" rate="1"/>
     </currencies>
-
     <categories>
       <category id="25">Организация мероприятий</category>
       <category id="3">Квесты и VR-игры</category>
       <category id="20">Аренда</category>
     </categories>
-
+    <!-- БЛОК SETS с уникальными ID -->
     <sets>
-      <set>
+      <set id="tarif-prazdnik">
         <url>https://nerealnaya-realnost.ru/tarif-prazdnik</url>
         <name>Детский день рождения в VR</name>
       </set>
-      <set>
+      <set id="vzroslyj-den-rozhdeniya">
         <url>https://nerealnaya-realnost.ru/vzroslyj-den-rozhdeniya</url>
         <name>Взрослый день рождения в VR</name>
       </set>
-      <set>
+      <set id="vypusknoj">
         <url>https://nerealnaya-realnost.ru/vypusknoj</url>
         <name>Выпускной в VR</name>
       </set>
-      <set>
+      <set id="korporativ">
         <url>https://nerealnaya-realnost.ru/korporativ</url>
         <name>Корпоратив в VR-арене</name>
       </set>
-      <set>
+      <set id="arena1">
         <url>https://nerealnaya-realnost.ru/arena1</url>
         <name>Аренда VR-арены</name>
       </set>
-      <set>
+      <set id="kvest-horror">
         <url>https://nerealnaya-realnost.ru/kvest-horror</url>
         <name>Квест-хоррор «Побег из комнаты»</name>
       </set>
-      <set>
+      <set id="tactics-games">
         <url>https://nerealnaya-realnost.ru/tactics-games</url>
         <name>Тактические VR-игры</name>
       </set>
     </sets>
-
+    <!-- БЛОК OFFERS -->
     <offers>
       <!-- Детские пакеты -->
       <offer id="dr_na_legke_budni" type="general" available="true">
@@ -58,14 +56,13 @@
         <currencyId>RUR</currencyId>
         <categoryId>25</categoryId>
         <picture>https://static.tildacdn.com/tild3231-3837-4533-b764-376164663633/Screenshot_20250726_.jpg</picture>
-        <set-ids>https://nerealnaya-realnost.ru/tarif-prazdnik</set-ids>
+        <set-ids>tarif-prazdnik</set-ids>
         <param name="регион">Красноярск</param>
         <param name="годы опыта">3</param>
         <param name="число отзывов">34</param>
         <param name="рейтинг">5</param>
         <param name="конверсия">40</param>
       </offer>
-
       <offer id="dr_start_budni" type="general" available="true">
         <url>https://nerealnaya-realnost.ru/tarif-prazdnik</url>
         <name>Нереальная Реальность</name>
@@ -74,14 +71,13 @@
         <currencyId>RUR</currencyId>
         <categoryId>25</categoryId>
         <picture>https://static.tildacdn.com/tild3231-3837-4533-b764-376164663633/Screenshot_20250726_.jpg</picture>
-        <set-ids>https://nerealnaya-realnost.ru/tarif-prazdnik</set-ids>
+        <set-ids>tarif-prazdnik</set-ids>
         <param name="регион">Красноярск</param>
         <param name="годы опыта">3</param>
         <param name="число отзывов">34</param>
         <param name="рейтинг">5</param>
         <param name="конверсия">40</param>
       </offer>
-
       <offer id="dr_expert_budni" type="general" available="true">
         <url>https://nerealnaya-realnost.ru/tarif-prazdnik</url>
         <name>Нереальная Реальность</name>
@@ -90,14 +86,13 @@
         <currencyId>RUR</currencyId>
         <categoryId>25</categoryId>
         <picture>https://static.tildacdn.com/tild3231-3837-4533-b764-376164663633/Screenshot_20250726_.jpg</picture>
-        <set-ids>https://nerealnaya-realnost.ru/tarif-prazdnik</set-ids>
+        <set-ids>tarif-prazdnik</set-ids>
         <param name="регион">Красноярск</param>
         <param name="годы опыта">3</param>
         <param name="число отзывов">34</param>
         <param name="рейтинг">5</param>
         <param name="конверсия">40</param>
       </offer>
-
       <offer id="dr_boss_budni" type="general" available="true">
         <url>https://nerealnaya-realnost.ru/tarif-prazdnik</url>
         <name>Нереальная Реальность</name>
@@ -106,14 +101,13 @@
         <currencyId>RUR</currencyId>
         <categoryId>25</categoryId>
         <picture>https://static.tildacdn.com/tild3231-3837-4533-b764-376164663633/Screenshot_20250726_.jpg</picture>
-        <set-ids>https://nerealnaya-realnost.ru/tarif-prazdnik</set-ids>
+        <set-ids>tarif-prazdnik</set-ids>
         <param name="регион">Красноярск</param>
         <param name="годы опыта">3</param>
         <param name="число отзывов">34</param>
         <param name="рейтинг">5</param>
         <param name="конверсия">40</param>
       </offer>
-
       <!-- Взрослый ДР -->
       <offer id="adult_dr" type="general" available="true">
         <url>https://nerealnaya-realnost.ru/vzroslyj-den-rozhdeniya</url>
@@ -123,14 +117,13 @@
         <currencyId>RUR</currencyId>
         <categoryId>25</categoryId>
         <picture>https://static.tildacdn.com/tild3335-3566-4163-a663-316565366136/Screenshot_20250726_.jpg</picture>
-        <set-ids>https://nerealnaya-realnost.ru/vzroslyj-den-rozhdeniya</set-ids>
+        <set-ids>vzroslyj-den-rozhdeniya</set-ids>
         <param name="регион">Красноярск</param>
         <param name="годы опыта">3</param>
         <param name="число отзывов">34</param>
         <param name="рейтинг">5</param>
         <param name="конверсия">40</param>
       </offer>
-
       <!-- Выпускной -->
       <offer id="vypusknoj" type="general" available="true">
         <url>https://nerealnaya-realnost.ru/vypusknoj</url>
@@ -140,14 +133,13 @@
         <currencyId>RUR</currencyId>
         <categoryId>25</categoryId>
         <picture>https://static.tildacdn.com/tild3539-6666-4164-a632-343031666565/Screenshot_20250726_.jpg</picture>
-        <set-ids>https://nerealnaya-realnost.ru/vypusknoj</set-ids>
+        <set-ids>vypusknoj</set-ids>
         <param name="регион">Красноярск</param>
         <param name="годы опыта">3</param>
         <param name="число отзывов">34</param>
         <param name="рейтинг">5</param>
         <param name="конверсия">40</param>
       </offer>
-
       <!-- Корпоратив -->
       <offer id="korporativ" type="general" available="true">
         <url>https://nerealnaya-realnost.ru/korporativ</url>
@@ -157,14 +149,13 @@
         <currencyId>RUR</currencyId>
         <categoryId>25</categoryId>
         <picture>https://static.tildacdn.com/tild6530-6535-4536-a134-356133326230/Screenshot_20250726_.jpg</picture>
-        <set-ids>https://nerealnaya-realnost.ru/korporativ</set-ids>
+        <set-ids>korporativ</set-ids>
         <param name="регион">Красноярск</param>
         <param name="годы опыта">3</param>
         <param name="число отзывов">34</param>
         <param name="рейтинг">5</param>
         <param name="конверсия">40</param>
       </offer>
-
       <!-- Аренда арены -->
       <offer id="arena_budni" type="general" available="true">
         <url>https://nerealnaya-realnost.ru/arena1</url>
@@ -174,14 +165,13 @@
         <currencyId>RUR</currencyId>
         <categoryId>20</categoryId>
         <picture>https://static.tildacdn.com/tild3539-6666-4164-a632-343031666565/Screenshot_20250726_.jpg</picture>
-        <set-ids>https://nerealnaya-realnost.ru/arena1</set-ids>
+        <set-ids>arena1</set-ids>
         <param name="регион">Красноярск</param>
         <param name="годы опыта">3</param>
         <param name="число отзывов">34</param>
         <param name="рейтинг">5</param>
         <param name="конверсия">40</param>
       </offer>
-
       <!-- Квест-хоррор -->
       <offer id="kvest_horror" type="general" available="true">
         <url>https://nerealnaya-realnost.ru/kvest-horror</url>
@@ -191,14 +181,13 @@
         <currencyId>RUR</currencyId>
         <categoryId>3</categoryId>
         <picture>https://static.tildacdn.com/tild3539-6666-4164-a632-343031666565/Screenshot_20250726_.jpg</picture>
-        <set-ids>https://nerealnaya-realnost.ru/kvest-horror</set-ids>
+        <set-ids>kvest-horror</set-ids>
         <param name="регион">Красноярск</param>
         <param name="годы опыта">3</param>
         <param name="число отзывов">34</param>
         <param name="рейтинг">5</param>
         <param name="конверсия">40</param>
       </offer>
-
       <!-- Тактические игры -->
       <offer id="tactics" type="general" available="true">
         <url>https://nerealnaya-realnost.ru/tactics-games</url>
@@ -208,7 +197,7 @@
         <currencyId>RUR</currencyId>
         <categoryId>3</categoryId>
         <picture>https://static.tildacdn.com/tild3539-6666-4164-a632-343031666565/Screenshot_20250726_.jpg</picture>
-        <set-ids>https://nerealnaya-realnost.ru/tactics-games</set-ids>
+        <set-ids>tactics-games</set-ids>
         <param name="регион">Красноярск</param>
         <param name="годы опыта">3</param>
         <param name="число отзывов">34</param>
