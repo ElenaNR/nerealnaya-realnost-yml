@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE yml_catalog SYSTEM "shops.dtd">
-<yml_catalog date="2025-10-22 06:00">
+<yml_catalog date="2025-10-23 08:00">
   <shop>
     <name>Нереальная Реальность</name>
     <company>ИП / ООО Нереальная Реальность</company>
@@ -14,7 +14,6 @@
       <category id="3">Квесты и VR-игры</category>
       <category id="20">Аренда</category>
     </categories>
-    <!-- БЛОК SETS с уникальными ID -->
     <sets>
       <set id="tarif-prazdnik">
         <url>https://nerealnaya-realnost.ru/tarif-prazdnik</url>
@@ -45,12 +44,11 @@
         <name>Тактические VR-игры</name>
       </set>
     </sets>
-    <!-- БЛОК OFFERS -->
     <offers>
       <!-- Детские пакеты -->
       <offer id="dr_na_legke_budni" type="general" available="true">
         <url>https://nerealnaya-realnost.ru/tarif-prazdnik</url>
-        <name>Нереальная Реальность</name>
+        <name>Нереальная Реальность — ДР «На лёгке»</name>
         <description>Детский ДР — пакет «На лёгке» (1,5 ч, будни)</description>
         <price>7700</price>
         <currencyId>RUR</currencyId>
@@ -65,7 +63,7 @@
       </offer>
       <offer id="dr_start_budni" type="general" available="true">
         <url>https://nerealnaya-realnost.ru/tarif-prazdnik</url>
-        <name>Нереальная Реальность</name>
+        <name>Нереальная Реальность — ДР «Старт»</name>
         <description>Детский ДР — пакет «Старт» (2 ч, будни)</description>
         <price>8600</price>
         <currencyId>RUR</currencyId>
@@ -80,7 +78,7 @@
       </offer>
       <offer id="dr_expert_budni" type="general" available="true">
         <url>https://nerealnaya-realnost.ru/tarif-prazdnik</url>
-        <name>Нереальная Реальность</name>
+        <name>Нереальная Реальность — ДР «Эксперт»</name>
         <description>Детский ДР — пакет «Эксперт» (2,5 ч, будни)</description>
         <price>10900</price>
         <currencyId>RUR</currencyId>
@@ -95,7 +93,7 @@
       </offer>
       <offer id="dr_boss_budni" type="general" available="true">
         <url>https://nerealnaya-realnost.ru/tarif-prazdnik</url>
-        <name>Нереальная Реальность</name>
+        <name>Нереальная Реальность — ДР «Босс»</name>
         <description>Детский ДР — пакет «Босс» (3 ч, будни)</description>
         <price>13900</price>
         <currencyId>RUR</currencyId>
@@ -111,7 +109,7 @@
       <!-- Взрослый ДР -->
       <offer id="adult_dr" type="general" available="true">
         <url>https://nerealnaya-realnost.ru/vzroslyj-den-rozhdeniya</url>
-        <name>Нереальная Реальность</name>
+        <name>Нереальная Реальность — Взрослый ДР</name>
         <description>Взрослый день рождения в VR</description>
         <price>8600</price>
         <currencyId>RUR</currencyId>
@@ -127,7 +125,7 @@
       <!-- Выпускной -->
       <offer id="vypusknoj" type="general" available="true">
         <url>https://nerealnaya-realnost.ru/vypusknoj</url>
-        <name>Нереальная Реальность</name>
+        <name>Нереальная Реальность — Выпускной</name>
         <description>Выпускной в VR-арене</description>
         <price>10900</price>
         <currencyId>RUR</currencyId>
@@ -143,7 +141,7 @@
       <!-- Корпоратив -->
       <offer id="korporativ" type="general" available="true">
         <url>https://nerealnaya-realnost.ru/korporativ</url>
-        <name>Нереальная Реальность</name>
+        <name>Нереальная Реальность — Корпоратив</name>
         <description>Корпоратив в VR-арене</description>
         <price>10900</price>
         <currencyId>RUR</currencyId>
@@ -159,7 +157,7 @@
       <!-- Аренда арены -->
       <offer id="arena_budni" type="general" available="true">
         <url>https://nerealnaya-realnost.ru/arena1</url>
-        <name>Нереальная Реальность</name>
+        <name>Нереальная Реальность — Аренда VR-арены</name>
         <description>Аренда VR-арены — будни (до 8 игроков)</description>
         <price>6400</price>
         <currencyId>RUR</currencyId>
@@ -175,7 +173,7 @@
       <!-- Квест-хоррор -->
       <offer id="kvest_horror" type="general" available="true">
         <url>https://nerealnaya-realnost.ru/kvest-horror</url>
-        <name>Нереальная Реальность</name>
+        <name>Нереальная Реальность — Квест-хоррор</name>
         <description>Квест-хоррор «Побег из комнаты» — будни</description>
         <price>800</price>
         <currencyId>RUR</currencyId>
@@ -191,7 +189,7 @@
       <!-- Тактические игры -->
       <offer id="tactics" type="general" available="true">
         <url>https://nerealnaya-realnost.ru/tactics-games</url>
-        <name>Нереальная Реальность</name>
+        <name>Нереальная Реальность — Тактические VR-игры</name>
         <description>Тактические VR-игры — будни</description>
         <price>800</price>
         <currencyId>RUR</currencyId>
